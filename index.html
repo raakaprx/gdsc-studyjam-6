@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raka Pradana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                    padding:{
+                        DEFAULT: 0,
+                        lg: "135px"
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- header -->
+     <section class="w-full bg-gray-100[F6C71F] h-screen">
+        <div class="flex flex-col container h-full">
+        <!-- navbar -->
+        <div class="flex flex-row justify-between">
+            <span class "flex felx-row font bold">RP</span>
+            <img src="img/menu.svg" alt="w-[24px]">
+        </div>
+        <!-- end navbar -->
+
+        <!-- introduction -->
+        <div class="flex grow flex-row ">
+            <!-- left side -->
+            <div class="flex flex-col justify-center w-1/2">
+                <p class="text-[55px] leading-tigt font-semibold">
+                    HI,I'm Raka , <br> 
+                    I Junior Developer stuff
+                </p>
+                <p class="text-[15px] mt-[40px]">Let,s Colabborate on your next project</p>
+            </div>  
+            <div class="inline-flex mt-[40px] space-x-[20px]">
+                <button class="text-[15px] py-[10px] px-[45px] bg-black text-white rounded-full hover:shadow-lg">
+                    Let's Collab
+                </button>
+                <button  class="text-[15px] py-[10px] px-[45px] border-2 border-black  rounded-full hover:shadow-lg">
+                    See My Work
+                </button>
+            </div>
+            <div class="inline-flex space-x-[24px] mt-[100px]">
+                <img src="img/instagram.svg" class="w-[24px]">
+                <img src="img/fb.svg" class="w-[24px]">
+                <img src="img/twitter.svg" class="w-[24px]">
+                <img src="img/medium.svg" class="w-[24px]">
+            </div>
+            <!-- right side -->
+            <div class="grid 1/2">
+                <img src="img/cowo.png" class="w-5/6 place-self-end">
+            </div>
+        </div>
+
+        <!-- end introduction -->
+
+        </div>
+
+     </section>
+
+     <!-- end header -->
+
+     <!-- portofolio -->
+
+     <section class="w-full container mt-[100px]"> 
+        <p class="text-[30px] font-semibold">portofolio</p>
+        <P>I've Worked with a couple innovate brands over the years , here a selection of my favorite works </P>
+    
+        <div class="grid grid-cols-5 gap-[70px] mt-[50px]">
+            <img src="img/gojek.png" alt="">
+            <img src="img/shopee.png" alt="">
+            <img src="img/telkom.png" alt="">
+            <img src="img/tokopedia.png" alt="">
+            <img src="img/x.svg" alt="">
+
+        </div>
+
+        <div class="inlane-flex space-x-[24px] mt-[80px] text-[15px] text-neutral-500">
+            <span class="text-neutral-900 font-bold">All Works</span>
+            <span>Design</span>
+            <span>UI & UX</span>
+            <span>Web Developer</span>
+        </div>
+
+        <div class="grid grid-cols-3 gap-[50px] mt-[20px]">
+            <div class="aspect-square bg-zinc-200 rounded-lg"></div>
+            <div class="aspect-square bg-zinc-200 rounded-lg"></div>
+            <div class="aspect-square bg-zinc-200 rounded-lg"></div>
+            <div class="aspect-square bg-zinc-200 rounded-lg"></div>
+            <div class="aspect-square bg-zinc-200 rounded-lg"></div>
+            <div class="aspect-square bg-zinc-200 rounded-lg"></div>
+        </div>
+    </section>
+     <!-- end portofolio -->
+     
+     <div class="border border-neutral-500 w-1/3 container my-[100px]"></div>
+
+     <!-- coloborate -->
+
+    <section class="text-center">
+        <p class="text-[40px] font-semibold">Want To Colabborate ?</p>
+        <p class="text-[15px]">You can shoot me an email or we could have a quick chat</p>
+        <div>
+            <button class="text-[15px] py-[10px] px-[45px] bg-black text-white rounded-full hover:shadow-lg">
+                Get In Touch
+        </div>
+    </section>
+
+     <!-- footer -->
+    <footer class="border-t bg-zinc-100 mt-[100px]">
+        <div class="grid grid-cols-4 container py-[50px">
+        <div class="flex flex-col">
+            <div class="w-[100px h-[100px] bg-zinc-200 border-300 rounded-lg"></div>
+        </div>
+
+        <div class="flex flex-col space-y-4 text-zinc-500">
+           <a href="#">About</a>
+           <a href="#">Contat</a>
+           <a href="#">portofolio</a>
+        </div>
+
+        <div class="flex flex-col space-y-4 text-zinc-500">
+            <a href="#">Blogs</a>
+            <a href="#">Notes</a>
+            <a href="#">Email</a>
+         </div>
+
+         <div class="flex flex-col space-y-4 text-zinc-500">
+            <a href="#">Get In Touch</a>
+            <a href="#" class="font-semibold text-black">+62 851 560 006 36</a>
+            <a href="#" class="font-semibold text-black">raka@gmail.com</a>
+         </div>
+
+         </div>
+
+         <p class="text-center py-[12px] text-neutral-500">2024 Raka , All right reserved</p>
+    </footer>
+
+     <!-- end footer -->
+
+</body>
+</html>
